@@ -5,6 +5,7 @@
     box-sizing: border-box;
     max-width: 100%;
     animation: fade 1s;
+    display: none;
 }
 html {
     font-family: Poppins;
