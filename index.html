@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Accomodation for Boys | Sunlight Hostel</title>
+    <link rel="icon" type="image/x-icon" href="logo-large.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <span class="nav-icon" onclick="navShow()">☰</span>
+        </div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="amenities.html">Amenities</a>
+            <a href="gallery.html">Gallery</a>
+            <a id="contactus" href="contact.html">Contact Us</a>
+        </div>
+    </div>
+    <header>
+        <img data-aos="fade-right" data-aos-mirror="true" src="header-background.jpg" alt="" class="head-image">
+        <div data-aos="fade-left" data-aos-delay="500" class="header-content">
+            <div class="head-heading">SUNLIGHT HOSTEL</div>
+            <div class="head-content">Where friendships bloom! Your comfy and affordable hostel for exploring Jaipur. Sustainable stays & unforgettable experiences!</div>
+            <a href="contact.html" class="head-btn">Contact Us</a>
+        </div>
+    </header>
+    <div class="main">
+        <section id="about-us">
+            <img data-aos="fade-right" class="about-us-img" src="about-us-img.png" alt="">
+            <div class="about-us">
+                <div class="section-heading">About Us</div>
+                <div class="section-content">
+                    <p>Welcome to Sunlight Hostel! We are conveniently located near Manipal University, Jaipur. Our aim is to provide our customers with a comfortable and enjoyable stay in the pink city. </p>
+                    <p>Sunlight Hostel isn't just a hostel, it's your launchpad to college life! We're a vibrant community space where students come together to study, socialize, and forge friendships that last.<br><p>We are committed to providing our guests with excellent service and a memorable experience.</p><p>Our comfortable and affordable accommodations are perfect for the students of Manipal University.</p>
+                    <p>The team of our hostel is passionate about providing our guests with an exceptional experience.</p>
+                    <a class="hoverbtn" href="contact.html">Book Now</a>
+                </div>
+            </div>
+        </section>
+        <section id="facilities">
+            <div class="right-heading section-heading">Our Facilities</div>
+            <div class="section-content">
+                <div class="facilities">
+                    <div data-aos="fade-up" class="facility">
+                        <img src="acroom.png" alt="">
+                        <p>Furnished AC Rooms</p>
+                    </div>
+                    <div data-aos="fade-up" class="facility">
+                        <img src="wifi.png" alt="">
+                        <p>Unlimited Wi-Fi</p>
+                    </div>
+                    <div data-aos="fade-up" class="facility">
+                        <img src="laundary.png" alt="">
+                        <p>Laundary Service</p>
+                    </div>
+                    <div data-aos="fade-up" class="facility">
+                        <img src="transport.png" alt="">
+                        <p>College Pick & Drop</p>
+                    </div>
+                </div>
+                <a class="hoverbtn" href="amenities.html">See More</a>
+            </div>
+        </section>
+        <section id="testimonials">
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-6e8aedae-91f3-48cd-952c-af2944d5bd22" data-elfsight-app-lazy></div>
+        </section>
+        <section id="gallery">
+            <div class="section-heading">Gallery</div>
+            <div class="section-content">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="6.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="7.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                        pagination: {
+                            el: ".swiper-pagination",
+                            dynamicBullets: true,
+                        },
+                    });
+                    var swiper = new Swiper(".mySwiper", {
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                    });
+                </script>
+                <a class="hoverbtn" href="gallery.html">See More</a>
+            </div>
+        </section>
+        <section id="contact-us">
+            <div class="contact-us">
+                <div class="section-heading">Contact Us</div>
+                <div class="section-content contactus-sec">
+                    <div class="phone">
+                        <p>Phone: <br>98284 64737<br>99299 17556<br>
+                        </p>
+                        <a href="tel:9828464737" class="callnowbtn">Call Now</a>
+                    </div>
+                    <div class="email">
+                        <p>Email: <br>sunlighthostel5@gmail.com</p>
+                    </div>
+                    <div class="location">  
+                        <p>Location: <br>Plot no. 42/43, Vashundhara Nagar, Near Manipal University, Dahmi Kalan, Jaipur 303007</p>
+                    </div>
+                </div>
+            </div>
+            <iframe class="realmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7120.167903238498!2d75.563731!3d26.837282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4938eb622507%3A0x53143a909f331a50!2sSunlight%20Boys%20Hostel!5e0!3m2!1sen!2sin!4v1720175888483!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 by Sunlight Hostel. All rights reserved.<br>Made by Anku</p>
+    </footer>
+    <script src="navmenu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
